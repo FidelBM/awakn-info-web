@@ -1,0 +1,24 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="420" rx="28" fill="#0E0E14"/>
+  <rect x="52" y="40" width="316" height="340" rx="22" fill="url(#paint0_linear)"/>
+  <rect x="72" y="68" width="276" height="294" rx="16" fill="#090B10" stroke="#3A3A46" stroke-width="2"/>
+  <text x="210" y="130" text-anchor="middle" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="8">AWAKN</text>
+  <text x="210" y="168" text-anchor="middle" fill="#FFD230" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">VEGAN PRE-WORKOUT</text>
+  <rect x="120" y="198" width="180" height="40" rx="20" fill="#D61F2C"/>
+  <text x="210" y="223" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.5">CHERRY GUMMIES</text>
+  <rect x="102" y="262" width="66" height="28" rx="14" fill="#3BB54A" fill-opacity="0.25" stroke="#3BB54A"/>
+  <rect x="176" y="262" width="66" height="28" rx="14" fill="#F0388E" fill-opacity="0.2" stroke="#F0388E"/>
+  <rect x="250" y="262" width="66" height="28" rx="14" fill="#3F22EC" fill-opacity="0.2" stroke="#3F22EC"/>
+  <text x="135" y="280" text-anchor="middle" fill="#C9FFD0" font-family="Arial, sans-serif" font-size="10" font-weight="700">VEGAN</text>
+  <text x="209" y="280" text-anchor="middle" fill="#FFD7EB" font-family="Arial, sans-serif" font-size="10" font-weight="700">NO MIXING</text>
+  <text x="283" y="280" text-anchor="middle" fill="#D9D1FF" font-family="Arial, sans-serif" font-size="10" font-weight="700">PRECISE</text>
+  <circle cx="72" cy="346" r="14" fill="#FFD230"/>
+  <circle cx="346" cy="78" r="18" fill="#F0388E" fill-opacity="0.85"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="60" y1="66" x2="360" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3F22EC"/>
+      <stop offset="0.5" stop-color="#F0388E"/>
+      <stop offset="1" stop-color="#D61F2C"/>
+    </linearGradient>
+  </defs>
+</svg>
