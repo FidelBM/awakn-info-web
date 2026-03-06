@@ -52,7 +52,7 @@ export default function Hero() {
             <h1 className="hero-title max-w-5xl">
               Reinventando la{" "}
               <span className="bg-[linear-gradient(120deg,#f0388e_18%,#d61f2c_55%,#3f22ec_95%)] bg-clip-text text-transparent">
-                energía pre-entrenamiento.
+                energía del pre-entrenamiento.
               </span>
             </h1>
             <p className="mt-5 max-w-2xl text-balance text-base text-[color:var(--text-secondary)] sm:text-lg">
