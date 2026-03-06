@@ -20,9 +20,9 @@ const productSchema = {
     name: "AWAKN"
   },
   description:
-    "AWAKN pre-workout gummies deliver clean, vegan energy in a solid format designed for athletes and active lifestyles.",
-  category: "Sports Nutrition Supplement",
-  image: "/product-placeholder.svg",
+    "Gomitas pre-entrenamiento AWAKN con energía limpia, vegana y práctica para estilos de vida activos.",
+  category: "Suplemento de nutrición deportiva",
+  image: "/images/awakn-pack.png",
   sku: "AWAKN-PRE-GUMMY-001",
   offers: {
     "@type": "Offer",

@@ -7,28 +7,28 @@ import Reveal from "./ui/Reveal";
 
 const faqs = [
   {
-    q: "How many gummies should I take?",
-    a: "Take 2 to 3 gummies about 15 to 20 minutes before training, and follow label guidance."
+    q: "¿Cuántas gomitas debo tomar?",
+    a: "Toma de 2 a 3 gomitas entre 15 y 20 minutos antes de entrenar, siguiendo siempre la etiqueta."
   },
   {
-    q: "Are AWAKN gummies vegan?",
-    a: "Yes. AWAKN uses a plant-based pectin gummy base and contains no gelatin."
+    q: "¿Las gomitas AWAKN son veganas?",
+    a: "Sí. AWAKN utiliza una base de pectina de origen vegetal y no contiene gelatina."
   },
   {
-    q: "How is this different from powder pre-workouts?",
-    a: "AWAKN delivers pre-workout support in a solid gummy format with no mixing, no shaker bottle, and precise dosing."
+    q: "¿En qué se diferencia de los pre-entrenos en polvo?",
+    a: "AWAKN ofrece soporte pre-entrenamiento en formato de gomita sólida: sin mezclar, sin shaker y con dosificación precisa."
   },
   {
-    q: "Will I experience an energy crash?",
-    a: "The formula is designed for smoother energy delivery, though caffeine response can vary by individual."
+    q: "¿Experimentaré una caída de energía?",
+    a: "La fórmula está pensada para una energía más estable, aunque la respuesta a la cafeína puede variar según la persona."
   },
   {
-    q: "Can I take it before any workout?",
-    a: "It can be used before strength, cardio, or mixed training sessions if stimulants are appropriate for you."
+    q: "¿Puedo tomarlo antes de cualquier entrenamiento?",
+    a: "Puede usarse antes de sesiones de fuerza, cardio o entrenamiento mixto, siempre que los estimulantes sean adecuados para ti."
   },
   {
-    q: "Any safety disclaimer?",
-    a: "These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    q: "¿Hay algún aviso de seguridad?",
+    a: "Estas declaraciones no han sido evaluadas por la FDA. Este producto no está destinado a diagnosticar, tratar, curar ni prevenir ninguna enfermedad."
   }
 ];
 
@@ -41,7 +41,7 @@ export default function FAQ() {
       <div className="section-shell">
         <Reveal>
           <h2 className="section-title text-center">
-            Frequently Asked <span className="text-accent">Questions</span>
+            Preguntas <span className="text-accent">frecuentes</span>
           </h2>
         </Reveal>
 

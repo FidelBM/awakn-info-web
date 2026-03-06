@@ -47,30 +47,30 @@ export default function Hero() {
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
             <p className="mb-6 inline-flex rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-white/90">
-              Clean Energy, Reinvented
+              Energía limpia, reinventada
             </p>
             <h1 className="hero-title max-w-5xl">
-              Reinventing{" "}
+              Reinventando la{" "}
               <span className="bg-[linear-gradient(120deg,#f0388e_18%,#d61f2c_55%,#3f22ec_95%)] bg-clip-text text-transparent">
-                Pre-Workout Energy.
+                energía pre-entrenamiento.
               </span>
             </h1>
             <p className="mt-5 max-w-2xl text-balance text-base text-[color:var(--text-secondary)] sm:text-lg">
-              Clean. Vegan. Solid. No mixing. No mess.
+              Limpio. Vegano. Sólido. Sin mezclar. Sin complicaciones.
             </p>
             <p className="mt-5 max-w-xl text-sm leading-7 text-white/75 sm:text-base">
-              AWAKN transforms functional pre-workout into a portable gummy format designed for
-              active lifestyles.
+              Las gomitas pre-entrenamiento AWAKN ofrecen energía funcional y limpia en un formato
+              sólido diseñado para atletas y estilos de vida activos.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-5 lg:justify-start">
               <a href="#product" className="btn-primary">
-                Learn More
+                Conocer más
               </a>
               <a
                 href="#ingredients"
                 className="text-sm font-semibold text-white/80 underline decoration-white/40 underline-offset-4 transition hover:text-white hover:decoration-[var(--vibrant-pink)]"
               >
-                Explore Ingredients
+                Explorar ingredientes
               </a>
             </div>
           </motion.div>
@@ -104,7 +104,7 @@ export default function Hero() {
               <div className="relative mx-auto aspect-[4/5] w-full max-w-[420px] overflow-hidden">
                 <Image
                   src="/images/awakn-pack.png"
-                  alt="AWAKN product packaging"
+                  alt="Empaque del producto AWAKN"
                   fill
                   priority
                   sizes="(max-width: 768px) 78vw, (max-width: 1280px) 42vw, 420px"
@@ -118,7 +118,7 @@ export default function Hero() {
 
         <a
           href="#problem"
-          aria-label="Scroll to next section"
+          aria-label="Desplazarse a la siguiente sección"
           className="mx-auto mt-12 inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/5 text-white/80 transition hover:border-white/40 hover:text-white"
         >
           <motion.span

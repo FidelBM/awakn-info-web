@@ -5,12 +5,12 @@ import { Battery, Beaker, Dumbbell, Droplets, Leaf, Zap } from "lucide-react";
 import Reveal from "./ui/Reveal";
 
 const ingredients = [
-  { name: "Natural Caffeine", dosage: "150 mg", desc: "Provides clean stimulation and improved focus.", icon: Zap, accent: "#F0388E" },
-  { name: "L-Citrulline", dosage: "2,000 mg", desc: "Supports nitric oxide production and blood flow.", icon: Beaker, accent: "#3F22EC" },
-  { name: "Beta-Alanine", dosage: "1,600 mg", desc: "Helps buffer fatigue during high-intensity efforts.", icon: Dumbbell, accent: "#FFD230" },
-  { name: "B Vitamins", dosage: "B-complex", desc: "Supports cellular energy metabolism and performance output.", icon: Battery, accent: "#3BB54A" },
-  { name: "Electrolytes", dosage: "300 mg", desc: "Helps maintain hydration and fluid balance while training.", icon: Droplets, accent: "#3F22EC" },
-  { name: "Plant-Based Pectin", dosage: "Vegan base", desc: "Replaces gelatin with a vegan-friendly gummy structure.", icon: Leaf, accent: "#3BB54A" }
+  { name: "Cafeína natural", dosage: "150 mg", desc: "Aporta estimulación limpia y mejora la concentración.", icon: Zap, accent: "#F0388E" },
+  { name: "L-Citrulina", dosage: "2,000 mg", desc: "Favorece la producción de óxido nítrico y el flujo sanguíneo.", icon: Beaker, accent: "#3F22EC" },
+  { name: "Beta-Alanina", dosage: "1,600 mg", desc: "Ayuda a reducir la fatiga en esfuerzos de alta intensidad.", icon: Dumbbell, accent: "#FFD230" },
+  { name: "Vitaminas del complejo B", dosage: "Complejo B", desc: "Contribuyen al metabolismo energético y al rendimiento.", icon: Battery, accent: "#3BB54A" },
+  { name: "Electrolitos", dosage: "300 mg", desc: "Ayudan a mantener la hidratación y el balance de fluidos al entrenar.", icon: Droplets, accent: "#3F22EC" },
+  { name: "Pectina de origen vegetal", dosage: "Base vegana", desc: "Sustituye la gelatina con una estructura de gomita apta para veganos.", icon: Leaf, accent: "#3BB54A" }
 ];
 
 export default function Ingredients() {
@@ -21,10 +21,10 @@ export default function Ingredients() {
       <div className="section-shell">
         <Reveal>
           <h2 className="section-title text-center">
-            Clean Ingredients.
+            Ingredientes limpios
           </h2>
           <p className="section-subtext text-center">
-            Transparent ingredient cards with practical dosages and clear function.
+            Ingredientes transparentes, dosis prácticas y función clara en cada fórmula.
           </p>
         </Reveal>
 
@@ -61,7 +61,7 @@ export default function Ingredients() {
 
         <p className="mt-6 text-center text-xs text-white/55">
           <Leaf className="mr-1 inline h-3.5 w-3.5 text-[color:var(--green-accent)]" />
-          100% vegan-friendly gummy base
+          Base de gomita 100% apta para veganos
         </p>
       </div>
     </section>

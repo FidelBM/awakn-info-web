@@ -6,23 +6,23 @@ import Reveal from "./ui/Reveal";
 
 const sciencePoints = [
   {
-    title: "Caffeine and focus",
-    text: "Caffeine helps improve alertness and reaction speed, supporting sharper pre-workout focus.",
+    title: "Cafeína y enfoque",
+    text: "La cafeína ayuda a mejorar el estado de alerta y la velocidad de reacción, favoreciendo un mejor enfoque pre-entrenamiento.",
     icon: Brain
   },
   {
-    title: "L-citrulline and blood flow",
-    text: "L-citrulline supports nitric oxide pathways associated with improved circulation during exercise.",
+    title: "L-citrulina y flujo sanguíneo",
+    text: "La L-citrulina respalda vías de óxido nítrico asociadas con una mejor circulación durante el ejercicio.",
     icon: Gauge
   },
   {
-    title: "Beta-alanine and endurance",
-    text: "Beta-alanine supports high-intensity endurance by helping buffer muscular fatigue.",
+    title: "Beta-alanina y resistencia",
+    text: "La beta-alanina favorece la resistencia en esfuerzos intensos al ayudar a amortiguar la fatiga muscular.",
     icon: Timer
   },
   {
-    title: "Electrolytes and hydration",
-    text: "Electrolytes help maintain fluid balance and support hydration during training.",
+    title: "Electrolitos e hidratación",
+    text: "Los electrolitos ayudan a mantener el equilibrio de fluidos y respaldan la hidratación durante el entrenamiento.",
     icon: Droplets
   }
 ];
@@ -34,9 +34,9 @@ export default function Science() {
     <section id="science" className="section-wrap border-y border-white/10">
       <div className="section-shell">
         <Reveal>
-          <h2 className="section-title text-center">Performance-driven formulation.</h2>
+          <h2 className="section-title text-center">Formulación orientada al rendimiento.</h2>
           <p className="section-subtext text-center">
-            AWAKN combines practical ingredients with evidence-aligned performance functions.
+            AWAKN combina ingredientes funcionales con beneficios respaldados por evidencia.
           </p>
         </Reveal>
 

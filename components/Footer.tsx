@@ -6,10 +6,10 @@ export default function Footer() {
           <p className="text-lg font-black tracking-[0.15em] text-[color:var(--accent)]">AWAKN</p>
           <div className="flex items-center gap-4 text-sm text-white/65">
             <a href="#" className="transition hover:text-white">
-              Privacy
+              Privacidad
             </a>
             <a href="#" className="transition hover:text-white">
-              Terms
+              Términos
             </a>
             <a href="#" className="transition hover:text-white">
               Instagram
@@ -20,8 +20,8 @@ export default function Footer() {
           </div>
         </div>
         <p className="mt-6 text-xs text-white/45">
-          These statements have not been evaluated by the FDA. This product is not intended to
-          diagnose, treat, cure, or prevent any disease.
+          Estas declaraciones no han sido evaluadas por la FDA. Este producto no está destinado a
+          diagnosticar, tratar, curar ni prevenir ninguna enfermedad.
         </p>
       </div>
     </footer>

@@ -8,22 +8,22 @@ import Reveal from "./ui/Reveal";
 const steps = [
   {
     number: "01",
-    title: "Step 1",
-    copy: "Take 2 to 3 gummies 15 to 20 minutes before training.",
+    title: "Paso 1",
+    copy: "Toma de 2 a 3 gomitas entre 15 y 20 minutos antes de entrenar.",
     icon: Dumbbell,
     image: "/images/awakn_1.png",
   },
   {
     number: "02",
-    title: "Step 2",
-    copy: "Natural caffeine and performance nutrients activate.",
+    title: "Paso 2",
+    copy: "La cafeína natural y los nutrientes de rendimiento comienzan a activarse.",
     icon: Zap,
     image: "/images/awakn_2.png",
   },
   {
     number: "03",
-    title: "Step 3",
-    copy: "Train with sustained energy and focus.",
+    title: "Paso 3",
+    copy: "Entrena con energía sostenida y mayor concentración.",
     icon: Activity,
     image: "/images/awakn_3.png",
   },
@@ -36,7 +36,7 @@ export default function HowItWorks() {
     <section id="how-it-works" className="section-wrap">
       <div className="section-shell">
         <Reveal>
-          <h2 className="section-title text-center">How It Works</h2>
+          <h2 className="section-title text-center">Cómo funciona</h2>
         </Reveal>
         <div className="mt-14 space-y-8">
           {steps.map((step, index) => (
@@ -71,7 +71,7 @@ export default function HowItWorks() {
                   <div className="relative aspect-[4/3] w-full">
                     <Image
                       src={step.image}
-                      alt={`AWAKN step ${index + 1} visual`}
+                      alt={`Visual de AWAKN paso ${index + 1}`}
                       fill
                       sizes="(max-width: 1024px) 92vw, 520px"
                       className="object-contain"

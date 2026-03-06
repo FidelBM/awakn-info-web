@@ -9,21 +9,21 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "AWAKN Pre-Workout Gummies | Clean Vegan Performance Energy",
+  title: "AWAKN Pre-Workout Gummies",
   description:
-    "AWAKN pre-workout gummies deliver clean, vegan energy in a solid format designed for athletes and active lifestyles.",
+    "Gomitas pre-entrenamiento AWAKN con energía limpia, vegana y práctica para estilos de vida activos.",
   openGraph: {
-    title: "AWAKN Pre-Workout Gummies | Clean Vegan Performance Energy",
+    title: "AWAKN Pre-Workout Gummies",
     description:
-      "AWAKN pre-workout gummies deliver clean, vegan energy in a solid format designed for athletes and active lifestyles.",
+      "Gomitas pre-entrenamiento AWAKN con energía limpia, vegana y práctica para estilos de vida activos.",
     type: "website",
     siteName: "AWAKN"
   },
   twitter: {
     card: "summary_large_image",
-    title: "AWAKN Pre-Workout Gummies | Clean Vegan Performance Energy",
+    title: "AWAKN Pre-Workout Gummies",
     description:
-      "AWAKN pre-workout gummies deliver clean, vegan energy in a solid format designed for athletes and active lifestyles."
+      "Gomitas pre-entrenamiento AWAKN con energía limpia, vegana y práctica para estilos de vida activos."
   }
 };
 
@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={spaceGrotesk.variable}>
+    <html lang="es" className={spaceGrotesk.variable}>
       <body className="font-sans antialiased">
         {children}
       </body>

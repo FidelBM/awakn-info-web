@@ -6,12 +6,12 @@ import { useState } from "react";
 import Reveal from "./ui/Reveal";
 
 const benefits = [
-  { title: "Fast absorption", copy: "Rapid format designed for quick pre-session use.", detail: "Built for athletes who move from day mode to training fast.", icon: Bolt },
-  { title: "No crash energy", copy: "Balanced stimulation for smoother workout output.", detail: "Reduces abrupt drop-offs that interrupt quality sessions.", icon: Gauge },
-  { title: "Portable performance", copy: "No shaker bottle, no powder mess, no setup delay.", detail: "Carry-ready format for gym, commute, or travel.", icon: Dumbbell },
-  { title: "Vegan certified", copy: "Plant-based gummy base with no gelatin ingredients.", detail: "Aligned with vegan-friendly nutrition preferences.", icon: Leaf },
-  { title: "Transparent formulation", copy: "Clear actives and practical dosages you can read.", detail: "No proprietary blend ambiguity.", icon: ShieldCheck },
-  { title: "Precise dosing", copy: "Consistent serving with every gummy intake.", detail: "No scoop variance or measurement guesswork.", icon: TimerReset }
+  { title: "Absorción rápida", copy: "Formato de acción rápida para usar antes de entrenar.", detail: "Ideal para atletas que pasan de su rutina diaria al entrenamiento sin pausa.", icon: Bolt },
+  { title: "Energía sin caída", copy: "Estímulo equilibrado para un rendimiento más estable.", detail: "Reduce bajones bruscos que interrumpen la calidad de la sesión.", icon: Gauge },
+  { title: "Rendimiento portátil", copy: "Sin shaker, sin polvo y sin tiempos de preparación.", detail: "Listo para llevar al gym, al trabajo o de viaje.", icon: Dumbbell },
+  { title: "Certificado vegano", copy: "Base de gomita vegetal, sin ingredientes de origen animal.", detail: "Alineado con preferencias de nutrición vegana.", icon: Leaf },
+  { title: "Fórmula transparente", copy: "Activos claros y dosificaciones fáciles de entender.", detail: "Sin ambigüedad de mezclas propietarias.", icon: ShieldCheck },
+  { title: "Dosificación precisa", copy: "Consistencia en cada porción de gomitas.", detail: "Sin variaciones por scoop ni errores de medida.", icon: TimerReset }
 ];
 
 export default function Benefits() {
@@ -22,9 +22,9 @@ export default function Benefits() {
     <section id="benefits" className="section-wrap">
       <div className="section-shell">
         <Reveal>
-          <h2 className="section-title text-center">Why athletes choose AWAKN.</h2>
+          <h2 className="section-title text-center">Por qué los atletas eligen AWAKN</h2>
           <p className="section-subtext text-center">
-            Built for practical performance, ingredient clarity, and everyday consistency.
+            Diseñado para rendimiento práctico, claridad de ingredientes y consistencia diaria.
           </p>
         </Reveal>
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

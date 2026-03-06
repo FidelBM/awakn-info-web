@@ -6,28 +6,28 @@ import Reveal from "./ui/Reveal";
 
 const painPoints = [
   {
-    title: "Messy powders",
-    description: "Scoops, dust, and shaker cleanup interrupt the pre-training routine.",
+    title: "Los polvos son incómodos y desordenados",
+    description: "Los scoops, el polvo y la limpieza del shaker interrumpen tu rutina previa al entrenamiento.",
     icon: Beaker
   },
   {
-    title: "Inconsistent dosing",
-    description: "Serving variation can lead to uneven energy and unpredictable intensity.",
+    title: "Difíciles de medir con precisión",
+    description: "Las variaciones en cada porción pueden generar energía irregular y rendimiento inconsistente.",
     icon: ClipboardList
   },
   {
-    title: "Artificial ingredient blends",
-    description: "Proprietary formulas often hide quality and make labels harder to trust.",
+    title: "Fórmulas artificiales",
+    description: "Las mezclas propietarias suelen ocultar la calidad real y reducen la claridad de la etiqueta.",
     icon: FlaskConical
   },
   {
-    title: "Inconvenient preparation",
-    description: "Mixing, carrying water, and cleaning create extra steps before every session.",
+    title: "Poco prácticos para llevar",
+    description: "Preparar, mezclar y cargar agua suma pasos innecesarios antes de cada sesión.",
     icon: Hourglass
   },
   {
-    title: "Energy crashes",
-    description: "Aggressive stimulation can drop off quickly and reduce workout consistency.",
+    title: "Caídas de energía",
+    description: "La estimulación intensa puede caer rápidamente y afectar la calidad del entrenamiento.",
     icon: AlertTriangle
   }
 ];
@@ -40,10 +40,10 @@ export default function Problem() {
       <div className="section-shell">
         <Reveal>
           <h2 className="section-title mx-auto max-w-4xl text-center">
-            Traditional pre-workout supplements create friction.
+            Los pre-entrenos tradicionales generan fricción.
           </h2>
           <p className="section-subtext text-center">
-            Legacy powder formats are effective in theory, but often inconvenient in practice.
+            En teoría funcionan, pero en la práctica agregan fricción a tu preparación.
           </p>
         </Reveal>
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-5">

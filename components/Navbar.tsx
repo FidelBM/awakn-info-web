@@ -5,12 +5,12 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const navItems = [
-  { label: "Home", href: "#top", id: "top" },
-  { label: "Product", href: "#product", id: "product" },
-  { label: "Ingredients", href: "#ingredients", id: "ingredients" },
-  { label: "Science", href: "#science", id: "science" },
-  { label: "Benefits", href: "#benefits", id: "benefits" },
-  { label: "FAQ", href: "#faq", id: "faq" },
+  { label: "Inicio", href: "#top", id: "top" },
+  { label: "Producto", href: "#product", id: "product" },
+  { label: "Ingredientes", href: "#ingredients", id: "ingredients" },
+  { label: "Ciencia", href: "#science", id: "science" },
+  { label: "Beneficios", href: "#benefits", id: "benefits" },
+  { label: "Preguntas Frecuentes", href: "#faq", id: "faq" },
 ];
 
 export default function NavBar() {
@@ -61,7 +61,7 @@ export default function NavBar() {
         <button
           type="button"
           className="inline-flex rounded-lg border border-white/15 p-2 text-white md:hidden"
-          aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+          aria-label={open ? "Cerrar menu de navegación" : "Abrir menu de navegación"}
           onClick={() => setOpen((current) => !current)}
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}

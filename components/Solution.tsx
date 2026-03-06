@@ -8,28 +8,28 @@ import Reveal from "./ui/Reveal";
 
 const points = [
   {
-    title: "Solid gummy format",
-    text: "A convenient pre-workout format that removes powder friction entirely.",
+    title: "Formato sólido en gomita",
+    text: "Un formato práctico de pre-entrenamiento que elimina por completo la fricción del polvo.",
     icon: CheckCircle2,
   },
   {
-    title: "Precise dosing",
-    text: "Built-in serving consistency with no scoops, no guesswork, and no mixing.",
+    title: "Dosificación precisa",
+    text: "Consistencia en cada porción, sin scoops, sin dudas y sin mezclar.",
     icon: ShieldCheck,
   },
   {
-    title: "Portable energy",
-    text: "Pocket-ready gummies for gym sessions, classes, runs, and travel days.",
+    title: "Energía portable",
+    text: "Gomitas fáciles de llevar para gimnasio, clases, corridas y días de viaje.",
     icon: Sparkles,
   },
   {
-    title: "No mixing required",
-    text: "Take and train in seconds with no prep, shaker bottle, or cleanup routine.",
+    title: "Sin necesidad de mezclar",
+    text: "Tómalas y entrena en segundos, sin preparación, shaker ni limpieza.",
     icon: Zap,
   },
   {
-    title: "Plant-based formulation",
-    text: "Vegan-friendly gummy base using plant-based pectin.",
+    title: "Fórmula de origen vegetal",
+    text: "Base de gomita apta para veganos elaborada con pectina vegetal.",
     icon: Leaf,
   },
 ];
@@ -44,11 +44,11 @@ export default function Solution() {
         <div className="grid items-start gap-8 lg:grid-cols-2 lg:gap-10">
           <Reveal>
             <h2 className="section-title">
-              A simpler way to fuel performance.
+              Una forma más simple de potenciar tu rendimiento.
             </h2>
             <p className="mt-5 max-w-xl text-base leading-7 text-[color:var(--text-secondary)] sm:text-lg">
-              AWAKN delivers practical, repeatable pre-workout support in a
-              format built for real training schedules and active lifestyles.
+              AWAKN ofrece un apoyo pre-entrenamiento práctico y consistente en un formato
+              diseñado para rutinas reales de entrenamiento y estilos de vida activos.
             </p>
             <ul className="mt-8 space-y-4">
               {points.map((item) => (
@@ -94,7 +94,7 @@ export default function Solution() {
                 <span className="confetti-triangle absolute bottom-9 right-7 rotate-12 bg-[var(--neon-green)]" />
                 <div className="relative rounded-3xl border border-white/15 bg-[linear-gradient(155deg,rgba(8,8,12,0.94),rgba(16,16,22,0.84))] p-5">
                   <p className="inline-flex rounded-full bg-[rgba(240,56,142,0.2)] px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--vibrant-pink)]">
-                    AWAKN Gummies
+                    Gomitas AWAKN
                   </p>
                   <h3 className="mt-3 text-2xl font-extrabold leading-tight text-white sm:text-3xl">
                     CHERRY
@@ -104,16 +104,16 @@ export default function Solution() {
                   </h3>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <span className="rounded-full border border-white/20 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-wider">
-                      Vegan
+                      Vegano
                     </span>
                     <span className="rounded-full border border-[rgba(63,34,236,0.45)] bg-[rgba(63,34,236,0.18)] px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-[#cfc7ff]">
-                      No Mixing
+                      Sin mezclar
                     </span>
                   </div>
                   <div className="relative mt-5 aspect-[16/10] w-full overflow-hidden rounded-2xl border border-white/10 bg-[linear-gradient(135deg,rgba(214,31,44,0.16),rgba(240,56,142,0.08),rgba(63,34,236,0.14))]">
                     <Image
                       src="/images/awakn-way.png"
-                      alt="AWAKN product image"
+                      alt="Imagen del producto AWAKN"
                       fill
                       sizes="(max-width: 1024px) 90vw, 400px"
                       className="h-full w-full"
@@ -121,11 +121,11 @@ export default function Solution() {
                   </div>
                 </div>
                 <div className="absolute right-4 top-4 rounded-full border border-[rgba(59,181,74,0.45)] bg-[rgba(59,181,74,0.22)] px-3 py-2 text-[11px] font-semibold tracking-wide text-[#ccffd4]">
-                  Performance Formulation
+                  Formulación de rendimiento
                 </div>
                 <div className="absolute bottom-4 right-4 inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-black/50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-white/85">
                   <Leaf className="h-3.5 w-3.5 text-[var(--neon-green)]" />
-                  Plant-Based
+                  Origen vegetal
                 </div>
               </motion.div>
             </div>
