@@ -27,11 +27,6 @@ const points = [
     text: "Tómalas y entrena en segundos, sin preparación, shaker ni limpieza.",
     icon: Zap,
   },
-  {
-    title: "Fórmula de origen vegetal",
-    text: "Base de gomita apta para veganos elaborada con pectina vegetal.",
-    icon: Leaf,
-  },
 ];
 
 export default function Solution() {
@@ -47,8 +42,9 @@ export default function Solution() {
               Una forma más simple de potenciar tu rendimiento.
             </h2>
             <p className="mt-5 max-w-xl text-base leading-7 text-[color:var(--text-secondary)] sm:text-lg">
-              AWAKN ofrece un apoyo pre-entrenamiento práctico y consistente en un formato
-              diseñado para rutinas reales de entrenamiento y estilos de vida activos.
+              AWAKN ofrece un apoyo pre-entrenamiento práctico y consistente en
+              un formato diseñado para rutinas reales de entrenamiento y estilos
+              de vida activos.
             </p>
             <ul className="mt-8 space-y-4">
               {points.map((item) => (
@@ -104,7 +100,7 @@ export default function Solution() {
                   </h3>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <span className="rounded-full border border-white/20 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-wider">
-                      Vegano
+                      Con Stevia natural
                     </span>
                     <span className="rounded-full border border-[rgba(63,34,236,0.45)] bg-[rgba(63,34,236,0.18)] px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-[#cfc7ff]">
                       Sin mezclar
@@ -122,10 +118,6 @@ export default function Solution() {
                 </div>
                 <div className="absolute right-4 top-4 rounded-full border border-[rgba(59,181,74,0.45)] bg-[rgba(59,181,74,0.22)] px-3 py-2 text-[11px] font-semibold tracking-wide text-[#ccffd4]">
                   Formulación de rendimiento
-                </div>
-                <div className="absolute bottom-4 right-4 inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-black/50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-white/85">
-                  <Leaf className="h-3.5 w-3.5 text-[var(--neon-green)]" />
-                  Origen vegetal
                 </div>
               </motion.div>
             </div>

@@ -8,28 +8,24 @@ import Reveal from "./ui/Reveal";
 const faqs = [
   {
     q: "¿Cuántas gomitas debo tomar?",
-    a: "Toma de 2 a 3 gomitas entre 15 y 20 minutos antes de entrenar, siguiendo siempre la etiqueta."
-  },
-  {
-    q: "¿Las gomitas AWAKN son veganas?",
-    a: "Sí. AWAKN utiliza una base de pectina de origen vegetal y no contiene gelatina."
+    a: "Toma de 2 a 3 gomitas entre 15 y 20 minutos antes de entrenar, siguiendo siempre la etiqueta.",
   },
   {
     q: "¿En qué se diferencia de los pre-entrenos en polvo?",
-    a: "AWAKN ofrece soporte pre-entrenamiento en formato de gomita sólida: sin mezclar, sin shaker y con dosificación precisa."
+    a: "AWAKN ofrece soporte pre-entrenamiento en formato de gomita sólida: sin mezclar, sin shaker y con dosificación precisa.",
   },
   {
     q: "¿Experimentaré una caída de energía?",
-    a: "La fórmula está pensada para una energía más estable, aunque la respuesta a la cafeína puede variar según la persona."
+    a: "La fórmula está pensada para una energía más estable, aunque la respuesta a la cafeína puede variar según la persona.",
   },
   {
     q: "¿Puedo tomarlo antes de cualquier entrenamiento?",
-    a: "Puede usarse antes de sesiones de fuerza, cardio o entrenamiento mixto, siempre que los estimulantes sean adecuados para ti."
+    a: "Puede usarse antes de sesiones de fuerza, cardio o entrenamiento mixto, siempre que los estimulantes sean adecuados para ti.",
   },
   {
     q: "¿Hay algún aviso de seguridad?",
-    a: "Estas declaraciones no han sido evaluadas por la FDA. Este producto no está destinado a diagnosticar, tratar, curar ni prevenir ninguna enfermedad."
-  }
+    a: "Estas declaraciones no han sido evaluadas por la FDA. Este producto no está destinado a diagnosticar, tratar, curar ni prevenir ninguna enfermedad.",
+  },
 ];
 
 export default function FAQ() {
@@ -60,7 +56,9 @@ export default function FAQ() {
                       id={`faq-header-${index}`}
                       onClick={() => setOpenIndex(isOpen ? null : index)}
                     >
-                      <span className="text-sm font-bold text-white sm:text-base md:text-lg">{faq.q}</span>
+                      <span className="text-sm font-bold text-white sm:text-base md:text-lg">
+                        {faq.q}
+                      </span>
                       <motion.span
                         animate={{ rotate: isOpen ? 180 : 0 }}
                         transition={{ duration: 0.2 }}
@@ -77,13 +75,21 @@ export default function FAQ() {
                         id={`faq-panel-${index}`}
                         role="region"
                         aria-labelledby={`faq-header-${index}`}
-                        initial={reduceMotion ? false : { height: 0, opacity: 0 }}
+                        initial={
+                          reduceMotion ? false : { height: 0, opacity: 0 }
+                        }
                         animate={{ height: "auto", opacity: 1 }}
-                        exit={reduceMotion ? { opacity: 0 } : { height: 0, opacity: 0 }}
+                        exit={
+                          reduceMotion
+                            ? { opacity: 0 }
+                            : { height: 0, opacity: 0 }
+                        }
                         transition={{ duration: 0.28, ease: "easeOut" }}
                         className="overflow-hidden"
                       >
-                        <p className="px-5 pb-5 text-sm leading-7 text-[color:var(--text-secondary)]">{faq.a}</p>
+                        <p className="px-5 pb-5 text-sm leading-7 text-[color:var(--text-secondary)]">
+                          {faq.a}
+                        </p>
                       </motion.div>
                     ) : null}
                   </AnimatePresence>

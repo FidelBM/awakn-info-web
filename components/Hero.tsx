@@ -56,11 +56,12 @@ export default function Hero() {
               </span>
             </h1>
             <p className="mt-5 max-w-2xl text-balance text-base text-[color:var(--text-secondary)] sm:text-lg">
-              Limpio. Vegano. Sólido. Sin mezclar. Sin complicaciones.
+              Limpio. Sin azúcar. Sólido. Sin mezclar. Sin complicaciones.
             </p>
             <p className="mt-5 max-w-xl text-sm leading-7 text-white/75 sm:text-base">
-              Las gomitas pre-entrenamiento AWAKN ofrecen energía funcional y limpia en un formato
-              sólido diseñado para atletas y estilos de vida activos.
+              Las gomitas pre-entrenamiento AWAKN ofrecen energía funcional y
+              limpia en un formato sólido diseñado para atletas y estilos de
+              vida activos.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-5 lg:justify-start">
               <a href="#product" className="btn-primary">
@@ -83,8 +84,16 @@ export default function Hero() {
           >
             <motion.div
               className="pointer-events-none absolute left-1/2 top-1/2 h-[72%] w-[72%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(240,56,142,0.32)_0%,rgba(214,31,44,0.2)_35%,rgba(63,34,236,0.24)_68%,transparent_78%)] blur-3xl"
-              animate={reduceMotion ? undefined : { opacity: [0.72, 1, 0.72], scale: [0.98, 1.03, 0.98] }}
-              transition={reduceMotion ? undefined : { duration: 6, repeat: Infinity, ease: "easeInOut" }}
+              animate={
+                reduceMotion
+                  ? undefined
+                  : { opacity: [0.72, 1, 0.72], scale: [0.98, 1.03, 0.98] }
+              }
+              transition={
+                reduceMotion
+                  ? undefined
+                  : { duration: 6, repeat: Infinity, ease: "easeInOut" }
+              }
             />
 
             <div className="pointer-events-none absolute left-1/2 top-1/2 h-[84%] w-[84%] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10 bg-[conic-gradient(from_20deg,rgba(255,210,48,0.08),rgba(240,56,142,0.08),rgba(63,34,236,0.08),rgba(59,181,74,0.05),rgba(255,210,48,0.08))] blur-[2px]" />
@@ -92,7 +101,11 @@ export default function Hero() {
             <motion.div
               className="relative rounded-[2rem] border border-white/15 bg-[linear-gradient(155deg,rgba(8,8,12,0.92),rgba(18,18,26,0.84))] p-6 sm:p-8"
               animate={reduceMotion ? undefined : { y: [0, -8, 0] }}
-              transition={reduceMotion ? undefined : { duration: 6, repeat: Infinity, ease: "easeInOut" }}
+              transition={
+                reduceMotion
+                  ? undefined
+                  : { duration: 6, repeat: Infinity, ease: "easeInOut" }
+              }
             >
               <div className="pointer-events-none absolute -left-6 top-10 hidden md:block">
                 <GummyBear color="red" size={56} opacity={0.42} blur={0.6} />

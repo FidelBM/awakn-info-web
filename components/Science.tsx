@@ -8,23 +8,23 @@ const sciencePoints = [
   {
     title: "Cafeína y enfoque",
     text: "La cafeína ayuda a mejorar el estado de alerta y la velocidad de reacción, favoreciendo un mejor enfoque pre-entrenamiento.",
-    icon: Brain
+    icon: Brain,
   },
   {
     title: "L-citrulina y flujo sanguíneo",
     text: "La L-citrulina respalda vías de óxido nítrico asociadas con una mejor circulación durante el ejercicio.",
-    icon: Gauge
+    icon: Gauge,
   },
   {
     title: "Beta-alanina y resistencia",
     text: "La beta-alanina favorece la resistencia en esfuerzos intensos al ayudar a amortiguar la fatiga muscular.",
-    icon: Timer
+    icon: Timer,
   },
   {
-    title: "Electrolitos e hidratación",
-    text: "Los electrolitos ayudan a mantener el equilibrio de fluidos y respaldan la hidratación durante el entrenamiento.",
-    icon: Droplets
-  }
+    title: "Taurina y antioxidantes",
+    text: "Taurina y antioxidantes ayudan a mantener el rendimiento físico y mental durante el entrenamiento.",
+    icon: Droplets,
+  },
 ];
 
 export default function Science() {
@@ -34,9 +34,12 @@ export default function Science() {
     <section id="science" className="section-wrap border-y border-white/10">
       <div className="section-shell">
         <Reveal>
-          <h2 className="section-title text-center">Formulación orientada al rendimiento.</h2>
+          <h2 className="section-title text-center">
+            Formulación orientada al rendimiento.
+          </h2>
           <p className="section-subtext text-center">
-            AWAKN combina ingredientes funcionales con beneficios respaldados por evidencia.
+            AWAKN combina ingredientes funcionales con beneficios respaldados
+            por evidencia.
           </p>
         </Reveal>
 
@@ -46,7 +49,9 @@ export default function Science() {
               <motion.article
                 className="glass-card group rounded-2xl p-6 sm:p-7"
                 whileHover={
-                  reduceMotion ? undefined : { y: -5, boxShadow: "0 18px 36px rgba(63,34,236,0.22)" }
+                  reduceMotion
+                    ? undefined
+                    : { y: -5, boxShadow: "0 18px 36px rgba(63,34,236,0.22)" }
                 }
               >
                 <span className="icon-shell h-11 w-11 rounded-xl bg-[rgba(63,34,236,0.2)] text-[#9f91ff]">
