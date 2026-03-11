@@ -11,7 +11,7 @@ const steps = [
     title: "Paso 1",
     copy: "Toma de 2 a 3 gomitas entre 15 y 20 minutos antes de entrenar.",
     icon: Dumbbell,
-    image: "/images/awakn_1.png",
+    image: "/images/awakn_1.1.png",
   },
   {
     number: "02",

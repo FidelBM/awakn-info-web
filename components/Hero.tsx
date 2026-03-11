@@ -116,7 +116,7 @@ export default function Hero() {
 
               <div className="relative mx-auto aspect-[4/5] w-full max-w-[420px] overflow-hidden">
                 <Image
-                  src="/images/awakn-pack.png"
+                  src="/images/awakn-pack1.png"
                   alt="Empaque del producto AWAKN"
                   fill
                   priority

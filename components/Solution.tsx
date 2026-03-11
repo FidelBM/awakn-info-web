@@ -108,7 +108,7 @@ export default function Solution() {
                   </div>
                   <div className="relative mt-5 aspect-[16/10] w-full overflow-hidden rounded-2xl border border-white/10 bg-[linear-gradient(135deg,rgba(214,31,44,0.16),rgba(240,56,142,0.08),rgba(63,34,236,0.14))]">
                     <Image
-                      src="/images/awakn-way.png"
+                      src="/images/awakn-way2.png"
                       alt="Imagen del producto AWAKN"
                       fill
                       sizes="(max-width: 1024px) 90vw, 400px"
